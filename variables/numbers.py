@@ -31,7 +31,21 @@ print(type(num_int))
 print(type(num_float))
 print(type(num_complex))
 
+# Number conversion 
 
+con_int_to_float = float(num_int)
+print(type(con_int_to_float))
+
+""" Python converts numbers internally in an expression containing mixed types to 
+    a common type for evaluation. Sometimes, you need to coerce a number explicitly 
+    from one type to another to satisfy the requirements of an operator or function parameter.
+
+    - Type int(x) to convert x to a plain integer.
+    - Type float(x) to convert x to a floating-point number.
+    - Type complex(x) to convert x to a complex number with real part x and imaginary part zero.
+    - Type complex(x, y) to convert x and y to a complex number with real part x and 
+        imaginary part y. x and y are numeric expressions
+"""
 
 
 
