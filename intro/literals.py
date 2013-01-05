@@ -68,3 +68,17 @@ def menu(x):
 
 menu(drink)
 menu(food)
+
+"""There are four different literal collections List literals, Tuple literals, 
+Dict literals, and Set literals."""
+
+# literals collections in Python
+fruits = ["apple", "mango", "orange"] #list
+numbers = (1, 2, 3) #tuple
+alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} #dictionary
+vowels = {'a', 'e', 'i' , 'o', 'u'} #set
+
+print(fruits)
+print(numbers)
+print(alphabets)
+print(vowels)
