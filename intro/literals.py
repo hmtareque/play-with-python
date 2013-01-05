@@ -56,3 +56,15 @@ print("b:", b)
 """Python contains one special literal i.e. None. We use it to specify 
 that the field has not been created."""
 
+# special literals in Python
+drink = "Available"
+food = None
+
+def menu(x):
+    if x == drink:
+        print(drink)
+    else:
+        print(food)
+
+menu(drink)
+menu(food)
