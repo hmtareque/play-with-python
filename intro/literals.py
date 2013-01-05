@@ -39,3 +39,20 @@ print(multiline_str)
 print(unicode)
 print(raw_str)
 
+
+"""A Boolean literal can have any of the two values: True or False."""
+
+# boolean literals in Python
+x = (1 == True)
+y = (1 == False)
+a = True + 4
+b = False + 10
+
+print("x is", x)
+print("y is", y)
+print("a:", a)
+print("b:", b)
+
+"""Python contains one special literal i.e. None. We use it to specify 
+that the field has not been created."""
+
