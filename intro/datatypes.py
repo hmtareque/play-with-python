@@ -41,3 +41,15 @@ print("t[1] = ", t[1])
 
 # t[0:3] = (5, 'program', (1+3j))
 print("t[0:3] = ", t[0:3])
+
+# Python Strings
+"""String is sequence of Unicode characters. 
+We can use single quotes or double quotes to represent strings. 
+Multi-line strings can be denoted using triple quotes, ''' or \"""."""
+
+s = "This is a string"
+print(s)
+s = '''A multiline
+string'''
+print(s)
+
