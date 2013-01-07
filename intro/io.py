@@ -3,7 +3,7 @@
 """In the second print() statement, we can notice that space was added between the string and 
 the value of variable a. This is by default, but we can change it."""
 
-print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+# print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 """Here, objects is the value(s) to be printed."""
 
