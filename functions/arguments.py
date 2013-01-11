@@ -26,3 +26,17 @@ def greet(name, msg="Good morning!"):
 
 greet("Kate")
 greet("Bruce", "How do you do?")
+
+
+# Python Keyword Arguments
+"""When we call a function with some values, 
+these values get assigned to the arguments according to their position."""
+
+# 2 keyword arguments
+greet(name = "Bruce",msg = "How do you do?")
+
+# 2 keyword arguments (out of order)
+greet(msg = "How do you do?", name = "Bruce") 
+
+# 1 positional, 1 keyword argument
+greet("Bruce", msg = "How do you do?") 
