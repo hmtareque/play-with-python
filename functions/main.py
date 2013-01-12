@@ -27,3 +27,11 @@ def greet(name):
     print("Hello, " + name + ". Good morning!")
 
 greet("Hasan")
+
+# Docstrings 
+
+"""The first string after the function header is called 
+the docstring and is short for documentation string. 
+It is briefly used to explain what a function does."""
+
+print(greet.__doc__)
