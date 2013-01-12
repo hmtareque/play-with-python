@@ -35,3 +35,18 @@ the docstring and is short for documentation string.
 It is briefly used to explain what a function does."""
 
 print(greet.__doc__)
+
+# Example of return
+def absolute_value(num):
+    """This function returns the absolute
+    value of the entered number"""
+
+    if num >= 0:
+        return num
+    else:
+        return -num
+
+
+print(absolute_value(2))
+
+print(absolute_value(-4))
